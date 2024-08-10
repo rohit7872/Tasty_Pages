@@ -30,6 +30,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1cfe3ed0049dc0caa790bb23a35306bf/databinding-adapters-4.0.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8347c1a734999fe88f9ca958a53402ec/databinding-runtime-4.0.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/4.0.2/f81a43250456490561f646948eaaedfa328c9d3c/databinding-common-4.0.2.jar</arg>
@@ -126,6 +127,9 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6dda520d4109e5f99c76d512a2e4222/jetified-jsoup-1.13.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa461a5463b8b251150ffd734fd552cf/jetified-junit-4.13.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de393e6432abc35561b57ab0da3ffb40/jetified-hamcrest-core-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-30/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.0/core-lambda-stubs.jar</arg>
               </args>
