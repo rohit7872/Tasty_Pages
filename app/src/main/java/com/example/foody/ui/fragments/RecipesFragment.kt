@@ -1,13 +1,14 @@
-package com.example.foody
+package com.example.foody.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.foody.R
 
 
-class FavFragment : Fragment() {
+class RecipesFragment : Fragment() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +21,10 @@ class FavFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_fav, container, false)
-    }
+        val view= inflater.inflate(R.layout.fragment_recipes, container, false)
 
+      //  view.shimmer_recycler_view.showShimmer()
+        return view
+    }
 
 }

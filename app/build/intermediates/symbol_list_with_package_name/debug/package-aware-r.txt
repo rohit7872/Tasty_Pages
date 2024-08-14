@@ -1696,6 +1696,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_airplanemode_active_24
+drawable ic_baseline_energy_savings_leaf_24
+drawable ic_baseline_favorite_24
+drawable ic_baseline_restaurant_24
+drawable ic_baseline_watch_later_24
 drawable ic_clock_black_24dp
 drawable ic_emoji_emotions
 drawable ic_food
@@ -1707,6 +1712,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_restaurant
 drawable ic_star
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1855,6 +1861,8 @@ id circular
 id clear_text
 id clip_horizontal
 id clip_vertical
+id clock_imageView
+id clock_textView
 id coil_request_manager
 id collapseActionView
 id confirm_button
@@ -1874,6 +1882,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description_textView
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1912,6 +1921,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id floatingActionButton
 id forever
 id fragment_container_view_tag
 id ghost_view
@@ -1924,6 +1934,8 @@ id grouping
 id groups
 id guideline
 id header_title
+id heart_imageView
+id heart_textView
 id hideable
 id home
 id homeAsUp
@@ -1934,6 +1946,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id incoming
 id info
 id invisible
@@ -1946,6 +1959,8 @@ id labelGroup
 id labeled
 id largeLabel
 id layout
+id leaf_imageView
+id leaf_textView
 id left
 id left_to_right
 id line1
@@ -2042,7 +2057,9 @@ id progress_horizontal
 id radial
 id radio
 id ratio
+id recipe_imageView
 id recipesFragment
+id recipesRowLayout
 id rectangles
 id restart
 id reverse
@@ -2052,6 +2069,7 @@ id right_icon
 id right_side
 id right_to_left
 id rounded
+id row_cardView
 id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
@@ -2076,6 +2094,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id shimmer_recycler_view
 id shortcut
 id showCustom
 id showHome
@@ -2127,6 +2146,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -2141,6 +2161,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_textView
 id toggle
 id top
 id topPanel
@@ -2159,6 +2180,12 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id view
+id view2
+id view3
+id view4
+id view5
+id view6
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2296,6 +2323,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout placeholder_row_layout
+layout recipes_row_layout
 layout recyclerview_shimmer_item_grid
 layout recyclerview_shimmer_item_list
 layout recyclerview_shimmer_viewholder_layout
