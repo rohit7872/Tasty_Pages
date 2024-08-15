@@ -1,6 +1,6 @@
 package com.example.foody.data.network
 
-import com.example.foody.Model.FoodRecipe
+import com.example.foody.model.FoodRecipe
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.QueryMap
