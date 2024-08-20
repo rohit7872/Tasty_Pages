@@ -10,17 +10,27 @@ import androidx.hilt.lifecycle.ViewModelFactoryModules_ActivityModule_ProvideFac
 import androidx.hilt.lifecycle.ViewModelFactoryModules_FragmentModule_ProvideFactoryFactory;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
+import com.example.foody.data.DataStoreRepository;
+import com.example.foody.data.LocalDataSource;
 import com.example.foody.data.RemoteDataSource;
 import com.example.foody.data.Repository;
+import com.example.foody.data.database.RecipesDao;
+import com.example.foody.data.database.RecipesDatabase;
 import com.example.foody.data.network.FoodRecipesApi;
+import com.example.foody.di.DatabaseModule;
+import com.example.foody.di.DatabaseModule_ProvideDaoFactory;
+import com.example.foody.di.DatabaseModule_ProvideDatabaseFactory;
 import com.example.foody.di.NetworkModule;
 import com.example.foody.di.NetworkModule_ProvideApiServiceFactory;
 import com.example.foody.di.NetworkModule_ProvideConverterFactoryFactory;
 import com.example.foody.di.NetworkModule_ProvideHttpClientFactory;
 import com.example.foody.di.NetworkModule_ProvideRetrofitInstanceFactory;
 import com.example.foody.ui.MainActivity;
-import com.example.foody.viewmodel.MainViewModel_AssistedFactory;
-import com.example.foody.viewmodel.MainViewModel_AssistedFactory_Factory;
+import com.example.foody.ui.fragments.recipes.RecipesFragment;
+import com.example.foody.viewmodels.MainViewModel_AssistedFactory;
+import com.example.foody.viewmodels.MainViewModel_AssistedFactory_Factory;
+import com.example.foody.viewmodels.RecipesViewModel_AssistedFactory;
+import com.example.foody.viewmodels.RecipesViewModel_AssistedFactory_Factory;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
 import dagger.hilt.android.internal.builders.ActivityRetainedComponentBuilder;
 import dagger.hilt.android.internal.builders.FragmentComponentBuilder;
@@ -29,7 +39,9 @@ import dagger.hilt.android.internal.builders.ViewComponentBuilder;
 import dagger.hilt.android.internal.builders.ViewWithFragmentComponentBuilder;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
+import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideContextFactory;
 import dagger.internal.DoubleCheck;
+import dagger.internal.MapBuilder;
 import dagger.internal.MemoizedSentinel;
 import dagger.internal.Preconditions;
 import java.util.Collections;
@@ -59,6 +71,10 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
   private volatile Object retrofit = new MemoizedSentinel();
 
   private volatile Object foodRecipesApi = new MemoizedSentinel();
+
+  private volatile Object recipesDatabase = new MemoizedSentinel();
+
+  private volatile Object recipesDao = new MemoizedSentinel();
 
   private volatile Provider<Application> provideApplicationProvider;
 
@@ -127,6 +143,34 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
     return (FoodRecipesApi) local;
   }
 
+  private RecipesDatabase getRecipesDatabase() {
+    Object local = recipesDatabase;
+    if (local instanceof MemoizedSentinel) {
+      synchronized (local) {
+        local = recipesDatabase;
+        if (local instanceof MemoizedSentinel) {
+          local = DatabaseModule_ProvideDatabaseFactory.provideDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(applicationContextModule));
+          recipesDatabase = DoubleCheck.reentrantCheck(recipesDatabase, local);
+        }
+      }
+    }
+    return (RecipesDatabase) local;
+  }
+
+  private RecipesDao getRecipesDao() {
+    Object local = recipesDao;
+    if (local instanceof MemoizedSentinel) {
+      synchronized (local) {
+        local = recipesDao;
+        if (local instanceof MemoizedSentinel) {
+          local = DatabaseModule_ProvideDaoFactory.provideDao(getRecipesDatabase());
+          recipesDao = DoubleCheck.reentrantCheck(recipesDao, local);
+        }
+      }
+    }
+    return (RecipesDao) local;
+  }
+
   private Provider<Application> getApplicationProvider() {
     Object local = provideApplicationProvider;
     if (local == null) {
@@ -165,6 +209,15 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
      * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
      */
     @Deprecated
+    public Builder databaseModule(DatabaseModule databaseModule) {
+      Preconditions.checkNotNull(databaseModule);
+      return this;
+    }
+
+    /**
+     * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
+     */
+    @Deprecated
     public Builder networkModule(NetworkModule networkModule) {
       Preconditions.checkNotNull(networkModule);
       return this;
@@ -188,6 +241,10 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
 
     private volatile Provider<Repository> repositoryProvider;
 
+    private volatile Object dataStoreRepository = new MemoizedSentinel();
+
+    private volatile Provider<DataStoreRepository> dataStoreRepositoryProvider;
+
     private ActivityRetainedCImpl() {
 
     }
@@ -196,13 +253,17 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
       return new RemoteDataSource(DaggerMyApplication_HiltComponents_ApplicationC.this.getFoodRecipesApi());
     }
 
+    private LocalDataSource getLocalDataSource() {
+      return new LocalDataSource(DaggerMyApplication_HiltComponents_ApplicationC.this.getRecipesDao());
+    }
+
     private Repository getRepository() {
       Object local = repository;
       if (local instanceof MemoizedSentinel) {
         synchronized (local) {
           local = repository;
           if (local instanceof MemoizedSentinel) {
-            local = new Repository(getRemoteDataSource());
+            local = new Repository(getRemoteDataSource(), getLocalDataSource());
             repository = DoubleCheck.reentrantCheck(repository, local);
           }
         }
@@ -217,6 +278,29 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
         repositoryProvider = (Provider<Repository>) local;
       }
       return (Provider<Repository>) local;
+    }
+
+    private DataStoreRepository getDataStoreRepository() {
+      Object local = dataStoreRepository;
+      if (local instanceof MemoizedSentinel) {
+        synchronized (local) {
+          local = dataStoreRepository;
+          if (local instanceof MemoizedSentinel) {
+            local = new DataStoreRepository(ApplicationContextModule_ProvideContextFactory.provideContext(DaggerMyApplication_HiltComponents_ApplicationC.this.applicationContextModule));
+            dataStoreRepository = DoubleCheck.reentrantCheck(dataStoreRepository, local);
+          }
+        }
+      }
+      return (DataStoreRepository) local;
+    }
+
+    private Provider<DataStoreRepository> getDataStoreRepositoryProvider() {
+      Object local = dataStoreRepositoryProvider;
+      if (local == null) {
+        local = new SwitchingProvider<>(1);
+        dataStoreRepositoryProvider = (Provider<DataStoreRepository>) local;
+      }
+      return (Provider<DataStoreRepository>) local;
     }
 
     @Override
@@ -245,6 +329,8 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
 
       private volatile Provider<MainViewModel_AssistedFactory> mainViewModel_AssistedFactoryProvider;
 
+      private volatile Provider<RecipesViewModel_AssistedFactory> recipesViewModel_AssistedFactoryProvider;
+
       private ActivityCImpl(Activity activityParam) {
         this.activity = activityParam;
       }
@@ -262,9 +348,23 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
         return (Provider<MainViewModel_AssistedFactory>) local;
       }
 
+      private RecipesViewModel_AssistedFactory getRecipesViewModel_AssistedFactory() {
+        return RecipesViewModel_AssistedFactory_Factory.newInstance(DaggerMyApplication_HiltComponents_ApplicationC.this.getApplicationProvider(), ActivityRetainedCImpl.this.getDataStoreRepositoryProvider());
+      }
+
+      private Provider<RecipesViewModel_AssistedFactory> getRecipesViewModel_AssistedFactoryProvider(
+          ) {
+        Object local = recipesViewModel_AssistedFactoryProvider;
+        if (local == null) {
+          local = new SwitchingProvider<>(1);
+          recipesViewModel_AssistedFactoryProvider = (Provider<RecipesViewModel_AssistedFactory>) local;
+        }
+        return (Provider<RecipesViewModel_AssistedFactory>) local;
+      }
+
       private Map<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>> getMapOfStringAndProviderOfViewModelAssistedFactoryOf(
           ) {
-        return Collections.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>singletonMap("com.example.foody.viewmodel.MainViewModel", (Provider) getMainViewModel_AssistedFactoryProvider());
+        return MapBuilder.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>newMapBuilder(2).put("com.example.foody.viewmodels.MainViewModel", (Provider) getMainViewModel_AssistedFactoryProvider()).put("com.example.foody.viewmodels.RecipesViewModel", (Provider) getRecipesViewModel_AssistedFactoryProvider()).build();
       }
 
       private ViewModelProvider.Factory getProvideFactory() {
@@ -315,6 +415,10 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
 
         private ViewModelProvider.Factory getProvideFactory() {
           return ViewModelFactoryModules_FragmentModule_ProvideFactoryFactory.provideFactory(fragment, ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_ApplicationC.this.applicationContextModule), ActivityCImpl.this.getMapOfStringAndProviderOfViewModelAssistedFactoryOf());
+        }
+
+        @Override
+        public void injectRecipesFragment(RecipesFragment recipesFragment) {
         }
 
         @Override
@@ -383,8 +487,11 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
         @Override
         public T get() {
           switch (id) {
-            case 0: // com.example.foody.viewmodel.MainViewModel_AssistedFactory 
+            case 0: // com.example.foody.viewmodels.MainViewModel_AssistedFactory 
             return (T) ActivityCImpl.this.getMainViewModel_AssistedFactory();
+
+            case 1: // com.example.foody.viewmodels.RecipesViewModel_AssistedFactory 
+            return (T) ActivityCImpl.this.getRecipesViewModel_AssistedFactory();
 
             default: throw new AssertionError(id);
           }
@@ -405,6 +512,9 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
         switch (id) {
           case 0: // com.example.foody.data.Repository 
           return (T) ActivityRetainedCImpl.this.getRepository();
+
+          case 1: // com.example.foody.data.DataStoreRepository 
+          return (T) ActivityRetainedCImpl.this.getDataStoreRepository();
 
           default: throw new AssertionError(id);
         }

@@ -1,4 +1,4 @@
-#Wed Aug 14 20:20:16 IST 2024
+#Mon Aug 19 17:31:57 IST 2024
 base.1=C\:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
 base.0=C\:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

@@ -13,7 +13,7 @@ import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.foody.R;
-import com.example.foody.model.Result;
+import com.example.foody.models.Result;
 import com.google.android.material.card.MaterialCardView;
 import java.lang.Deprecated;
 import java.lang.Object;

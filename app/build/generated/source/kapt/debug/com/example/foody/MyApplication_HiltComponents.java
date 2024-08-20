@@ -1,9 +1,12 @@
 package com.example.foody;
 
 import androidx.hilt.lifecycle.ViewModelFactoryModules;
+import com.example.foody.di.DatabaseModule;
 import com.example.foody.di.NetworkModule;
 import com.example.foody.ui.MainActivity_GeneratedInjector;
-import com.example.foody.viewmodel.MainViewModel_HiltModule;
+import com.example.foody.ui.fragments.recipes.RecipesFragment_GeneratedInjector;
+import com.example.foody.viewmodels.MainViewModel_HiltModule;
+import com.example.foody.viewmodels.RecipesViewModel_HiltModule;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -128,7 +131,8 @@ public final class MyApplication_HiltComponents {
   @Subcomponent(
       modules = {
           MainViewModel_HiltModule.class,
-          ActivityCBuilderModule.class
+          ActivityCBuilderModule.class,
+          RecipesViewModel_HiltModule.class
       }
   )
   @ActivityRetainedScoped
@@ -143,6 +147,7 @@ public final class MyApplication_HiltComponents {
   @Component(
       modules = {
           ApplicationContextModule.class,
+          DatabaseModule.class,
           ActivityRetainedCBuilderModule.class,
           ServiceCBuilderModule.class,
           NetworkModule.class
@@ -164,7 +169,8 @@ public final class MyApplication_HiltComponents {
       }
   )
   @FragmentScoped
-  public abstract static class FragmentC implements FragmentComponent,
+  public abstract static class FragmentC implements RecipesFragment_GeneratedInjector,
+      FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,
       GeneratedComponent {

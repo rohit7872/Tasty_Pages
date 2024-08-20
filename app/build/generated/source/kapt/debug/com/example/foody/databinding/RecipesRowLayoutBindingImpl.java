@@ -77,7 +77,7 @@ public class RecipesRowLayoutBindingImpl extends RecipesRowLayoutBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.result == variableId) {
-            setResult((com.example.foody.model.Result) variable);
+            setResult((com.example.foody.models.Result) variable);
         }
         else {
             variableSet = false;
@@ -85,7 +85,7 @@ public class RecipesRowLayoutBindingImpl extends RecipesRowLayoutBinding  {
             return variableSet;
     }
 
-    public void setResult(@Nullable com.example.foody.model.Result Result) {
+    public void setResult(@Nullable com.example.foody.models.Result Result) {
         this.mResult = Result;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -111,7 +111,7 @@ public class RecipesRowLayoutBindingImpl extends RecipesRowLayoutBinding  {
         java.lang.String resultTitle = null;
         int resultReadyInMinutes = 0;
         java.lang.String resultImage = null;
-        com.example.foody.model.Result result = mResult;
+        com.example.foody.models.Result result = mResult;
         boolean resultVegan = false;
         int resultAggregateLikes = 0;
         java.lang.String resultSummary = null;
