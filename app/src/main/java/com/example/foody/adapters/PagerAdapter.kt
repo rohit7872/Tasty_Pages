@@ -15,7 +15,7 @@ class PagerAdapter(
     override fun getCount(): Int {
         return fragments.size
     }
-
+// test commits
     override fun getItem(position: Int): Fragment {
         fragments[position].arguments = resultBundle
         return fragments[position]
