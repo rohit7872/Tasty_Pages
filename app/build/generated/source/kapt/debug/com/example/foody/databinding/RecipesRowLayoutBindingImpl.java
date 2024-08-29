@@ -140,11 +140,12 @@ public class RecipesRowLayoutBindingImpl extends RecipesRowLayoutBinding  {
             // api target 1
 
             com.example.foody.bindingadapters.RecipesRowBinding.setNumberOfMinutes(this.clockTextView, resultReadyInMinutes);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.descriptionTextView, resultSummary);
+            com.example.foody.bindingadapters.RecipesRowBinding.parseHtml(this.descriptionTextView, resultSummary);
             com.example.foody.bindingadapters.RecipesRowBinding.setNumberOfLikes(this.heartTextView, resultAggregateLikes);
             com.example.foody.bindingadapters.RecipesRowBinding.applyVeganColor(this.leafImageView, resultVegan);
             com.example.foody.bindingadapters.RecipesRowBinding.applyVeganColor(this.leafTextView, resultVegan);
             com.example.foody.bindingadapters.RecipesRowBinding.loadImageFromUrl(this.recipeImageView, resultImage);
+            com.example.foody.bindingadapters.RecipesRowBinding.onRecipeClickListener(this.recipesRowLayout, result);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.titleTextView, resultTitle);
         }
     }

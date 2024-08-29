@@ -4,7 +4,19 @@
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\recipes_row_layout.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\favorite_recipes_row_layout.xml",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\favorite_recipes_row_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_food_joke.xml",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_food_joke.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_recipes.xml",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_recipes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_favorite_recipes.xml",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_favorite_recipes.xml"
     }
 ]

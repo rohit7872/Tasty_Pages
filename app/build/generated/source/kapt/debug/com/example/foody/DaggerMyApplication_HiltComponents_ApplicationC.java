@@ -25,7 +25,10 @@ import com.example.foody.di.NetworkModule_ProvideApiServiceFactory;
 import com.example.foody.di.NetworkModule_ProvideConverterFactoryFactory;
 import com.example.foody.di.NetworkModule_ProvideHttpClientFactory;
 import com.example.foody.di.NetworkModule_ProvideRetrofitInstanceFactory;
+import com.example.foody.ui.DetailsActivity;
 import com.example.foody.ui.MainActivity;
+import com.example.foody.ui.fragments.favorites.FavoriteRecipesFragment;
+import com.example.foody.ui.fragments.foodjoke.FoodJokeFragment;
 import com.example.foody.ui.fragments.recipes.RecipesFragment;
 import com.example.foody.viewmodels.MainViewModel_AssistedFactory;
 import com.example.foody.viewmodels.MainViewModel_AssistedFactory_Factory;
@@ -372,6 +375,10 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
       }
 
       @Override
+      public void injectDetailsActivity(DetailsActivity detailsActivity) {
+      }
+
+      @Override
       public void injectMainActivity(MainActivity mainActivity) {
       }
 
@@ -415,6 +422,14 @@ public final class DaggerMyApplication_HiltComponents_ApplicationC extends MyApp
 
         private ViewModelProvider.Factory getProvideFactory() {
           return ViewModelFactoryModules_FragmentModule_ProvideFactoryFactory.provideFactory(fragment, ApplicationContextModule_ProvideApplicationFactory.provideApplication(DaggerMyApplication_HiltComponents_ApplicationC.this.applicationContextModule), ActivityCImpl.this.getMapOfStringAndProviderOfViewModelAssistedFactoryOf());
+        }
+
+        @Override
+        public void injectFavoriteRecipesFragment(FavoriteRecipesFragment favoriteRecipesFragment) {
+        }
+
+        @Override
+        public void injectFoodJokeFragment(FoodJokeFragment foodJokeFragment) {
         }
 
         @Override

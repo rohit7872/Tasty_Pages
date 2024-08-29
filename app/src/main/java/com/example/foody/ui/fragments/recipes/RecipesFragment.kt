@@ -131,7 +131,8 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
             when (response) {
                 is NetworkResult.Success -> {
                     hideShimmerEffect()
-                    response.data?.let { mAdapter.setData(it) }
+                    response.data?.let { mAdapter.setData(it)
+                        Log.d("RecipesFragment",  response.data?.toString())}
                 }
                 is NetworkResult.Error -> {
                     hideShimmerEffect()
@@ -141,6 +142,7 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
                         response.message.toString(),
                         Toast.LENGTH_SHORT
                     ).show()
+                    Log.d("erroronrespies",  response.message.toString())
                 }
                 is NetworkResult.Loading -> {
                     showShimmerEffect()

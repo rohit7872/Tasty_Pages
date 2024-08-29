@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_favorite_recipes_row_layout.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\favorite_recipes_row_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ingredients.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_ingredients.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -16,32 +24,32 @@
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\menu\\recipes_menu.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_placeholder_row_layout.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\placeholder_row_layout.xml"
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_details_menu.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\menu\\details_menu.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_favorites_contextual_menu.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\menu\\favorites_contextual_menu.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_heart.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_heart.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clock.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_clock.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_splash_screen.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-xxhdpi\\splash_screen.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_food_joke_menu.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\menu\\food_joke_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_overview.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_overview.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_recipes.xml.flat",
@@ -52,20 +60,128 @@
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\color_bottom_nav_view_item_color.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\color\\bottom_nav_view_item_color.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\color_chip_text_color.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\color\\chip_text_color.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_error_placeholder.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_error_placeholder.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_error_placeholder.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_error_placeholder.xml"
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_splash_screen.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-mdpi\\splash_screen.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_details.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_splash_screen.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-xxxhdpi\\splash_screen.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_splash_screen.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-xhdpi\\splash_screen.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_joke.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_food_joke.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food_joke.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_food_joke.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_favorite_recipes_menu.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\menu\\favorite_recipes_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_book.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_menu_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorite_recipes.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_favorite_recipes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-night_fragment_food_joke.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout-night\\fragment_food_joke.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_placeholder_row_layout.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\placeholder_row_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_instructions.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clock.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_splash_screen.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-ldpi\\splash_screen.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_joke_background.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_food_joke_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_overlay.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\gradient_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\xml_fragment_overview_scene.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\xml\\fragment_overview_scene.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_checkmark.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_checkmark.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_restaurant.xml.flat",
@@ -100,40 +216,20 @@
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_splash_screen.png.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable-hdpi\\splash_screen.png"
+    },
+    {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_joke.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_food_joke.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food_joke.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_food_joke.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_book.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_menu_book.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorite_recipes.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\fragment_favorite_recipes.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_ingredients_row_layout.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\layout\\ingredients_row_layout.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_leaf.xml.flat",
@@ -146,5 +242,9 @@
     {
         "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_joke_background_dark.xml.flat",
+        "source": "C:\\Users\\admin\\Downloads\\Foody-master\\Foody-master\\app\\src\\main\\res\\drawable\\ic_food_joke_background_dark.xml"
     }
 ]

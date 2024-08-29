@@ -3,7 +3,10 @@ package com.example.foody;
 import androidx.hilt.lifecycle.ViewModelFactoryModules;
 import com.example.foody.di.DatabaseModule;
 import com.example.foody.di.NetworkModule;
+import com.example.foody.ui.DetailsActivity_GeneratedInjector;
 import com.example.foody.ui.MainActivity_GeneratedInjector;
+import com.example.foody.ui.fragments.favorites.FavoriteRecipesFragment_GeneratedInjector;
+import com.example.foody.ui.fragments.foodjoke.FoodJokeFragment_GeneratedInjector;
 import com.example.foody.ui.fragments.recipes.RecipesFragment_GeneratedInjector;
 import com.example.foody.viewmodels.MainViewModel_HiltModule;
 import com.example.foody.viewmodels.RecipesViewModel_HiltModule;
@@ -117,7 +120,8 @@ public final class MyApplication_HiltComponents {
       }
   )
   @ActivityScoped
-  public abstract static class ActivityC implements MainActivity_GeneratedInjector,
+  public abstract static class ActivityC implements DetailsActivity_GeneratedInjector,
+      MainActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       FragmentComponentManager.FragmentComponentBuilderEntryPoint,
@@ -169,7 +173,9 @@ public final class MyApplication_HiltComponents {
       }
   )
   @FragmentScoped
-  public abstract static class FragmentC implements RecipesFragment_GeneratedInjector,
+  public abstract static class FragmentC implements FavoriteRecipesFragment_GeneratedInjector,
+      FoodJokeFragment_GeneratedInjector,
+      RecipesFragment_GeneratedInjector,
       FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,

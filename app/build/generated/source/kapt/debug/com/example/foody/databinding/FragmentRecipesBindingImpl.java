@@ -88,13 +88,13 @@ public class FragmentRecipesBindingImpl extends FragmentRecipesBinding  {
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
         switch (localFieldId) {
             case 0 :
-                return onChangeMainViewModelReadRecipes((androidx.lifecycle.LiveData<java.util.List<com.example.foody.data.database.RecipesEntity>>) object, fieldId);
+                return onChangeMainViewModelReadRecipes((androidx.lifecycle.LiveData<java.util.List<com.example.foody.data.database.entities.RecipesEntity>>) object, fieldId);
             case 1 :
                 return onChangeMainViewModelRecipesResponse((androidx.lifecycle.MutableLiveData<com.example.foody.util.NetworkResult<com.example.foody.models.FoodRecipe>>) object, fieldId);
         }
         return false;
     }
-    private boolean onChangeMainViewModelReadRecipes(androidx.lifecycle.LiveData<java.util.List<com.example.foody.data.database.RecipesEntity>> MainViewModelReadRecipes, int fieldId) {
+    private boolean onChangeMainViewModelReadRecipes(androidx.lifecycle.LiveData<java.util.List<com.example.foody.data.database.entities.RecipesEntity>> MainViewModelReadRecipes, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x1L;
@@ -121,10 +121,10 @@ public class FragmentRecipesBindingImpl extends FragmentRecipesBinding  {
             mDirtyFlags = 0;
         }
         com.example.foody.viewmodels.MainViewModel mainViewModel = mMainViewModel;
-        androidx.lifecycle.LiveData<java.util.List<com.example.foody.data.database.RecipesEntity>> mainViewModelReadRecipes = null;
+        androidx.lifecycle.LiveData<java.util.List<com.example.foody.data.database.entities.RecipesEntity>> mainViewModelReadRecipes = null;
         com.example.foody.util.NetworkResult<com.example.foody.models.FoodRecipe> mainViewModelRecipesResponseGetValue = null;
         androidx.lifecycle.MutableLiveData<com.example.foody.util.NetworkResult<com.example.foody.models.FoodRecipe>> mainViewModelRecipesResponse = null;
-        java.util.List<com.example.foody.data.database.RecipesEntity> mainViewModelReadRecipesGetValue = null;
+        java.util.List<com.example.foody.data.database.entities.RecipesEntity> mainViewModelReadRecipesGetValue = null;
 
         if ((dirtyFlags & 0xfL) != 0) {
 

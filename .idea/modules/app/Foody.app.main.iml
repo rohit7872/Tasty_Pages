@@ -106,10 +106,11 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/115b9ed3d02fc7815ff827149ced2094/jetified-kotlin-android-extensions-runtime-1.4.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbbedd2f279a8f021e98d050df5306ea/jetified-kotlinx-coroutines-android-1.3.9.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4e6b75b5ddb408f67fefbb4a8841917/jetified-kotlinx-coroutines-core-jvm-1.3.9.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41c7c306c02695ac6607696d405d339e/jetified-converter-gson-2.9.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb93b6e21b047cf2cdb2306126a5d773/jetified-retrofit-2.9.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/875f188bdc01b8ac3c9db35ee6cc9446/jetified-okhttp-3.14.9.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f613bff8c1cb23a13b204656d0d06831/jetified-logging-interceptor-4.8.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1103436a7fbb69fb7f98722f9e6df53/jetified-okhttp-4.8.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4e6b75b5ddb408f67fefbb4a8841917/jetified-kotlinx-coroutines-core-jvm-1.3.9.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d1f20450dcec67694585b44276c55da/jetified-okio-jvm-2.8.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/551ee6c4ddfb05996ad8d091eca8eb58/jetified-kotlin-stdlib-1.4.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/05f5cff2cb95ccafebcf737f8fa9b2a6/jetified-kotlin-stdlib-common-1.4.10.jar</arg>
@@ -125,6 +126,9 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bc5eda01dc48956c63f6c7b97c56971/jetified-hilt-common-1.0.0-alpha02-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee41d94aaff8cb4e83d47d583ada7bad/jetified-shimmer-recyclerview-0.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6dda520d4109e5f99c76d512a2e4222/jetified-jsoup-1.13.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3bca2c730c19d0d5280890fe7d176a7d/jetified-appcenter-analytics-2.2.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69d7f51f924b76d0de08fd2865356988/jetified-appcenter-crashes-2.2.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f69959780248b9a98af87b0f6745cbf/jetified-appcenter-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-30/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.0/core-lambda-stubs.jar</arg>
               </args>
@@ -206,10 +210,11 @@
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.3.9" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:4.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.3.9" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.8.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.10" level="project" />
@@ -290,5 +295,8 @@
     <orderEntry type="library" name="Gradle: com.google.dagger:dagger-lint-aar:2.28@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.hilt:hilt-common:1.0.0-alpha02@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.todkars:shimmer-recyclerview:0.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.microsoft.appcenter:appcenter-analytics:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.microsoft.appcenter:appcenter-crashes:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.microsoft.appcenter:appcenter:2.2.0@aar" level="project" />
   </component>
 </module>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\260844277836bbfd8da71fcda5b59258\databinding-adapters-4.0.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\170fe01bdb7f6adb86ff58c399499fcc\databinding-runtime-4.0.2\AndroidManifest.xml:17:1-24:12
 MERGED from [io.coil-kt:coil:0.13.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b91a3ff6733089012a1b1ff256a70383\jetified-coil-0.13.0\AndroidManifest.xml:2:1-9:12
@@ -36,6 +36,8 @@ MERGED from [com.google.dagger:hilt-android:2.28-alpha] C:\Users\admin\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bd4527d547f2b2dbcd642c82de3769ef\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c9e438fe1a790304b3b134c62f937c3b\jetified-shimmer-0.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.todkars:shimmer-recyclerview:0.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de5a5ce7d3effd30b3310e26f7a33912\jetified-shimmer-recyclerview-0.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-analytics:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a351daa565f17c7347c2f81f6ab3d770\jetified-appcenter-analytics-2.2.0\AndroidManifest.xml:6:1-15:12
+MERGED from [com.microsoft.appcenter:appcenter-crashes:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\624797fea9b094c6a687d5a9bf93f4d9\jetified-appcenter-crashes-2.2.0\AndroidManifest.xml:6:1-15:12
 MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5a3293093f223c7e342fdd3f9046665f\jetified-viewbinding-4.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e230338de2ba672939d09441847abe5\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7175fac2366c64ddfec97788ba728452\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -74,33 +76,38 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6a078a371c994230298131230cc2d892\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\56187507f87d4f755eb447fa82c22166\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.28] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\53f52d38027d0d75c2901f02b6a993c9\jetified-dagger-lint-aar-2.28\AndroidManifest.xml:16:1-18:12
-INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:6:1-18:12
+INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:15:5-67
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:16:5-79
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:16:5-79
 	android:name
 		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:8:5-27:19
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:8:5-32:19
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\858b4edaf04374f067e8666154e1d618\material-1.3.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\858b4edaf04374f067e8666154e1d618\material-1.3.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c0aca79a1f882046f98244cbf659f783\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
@@ -130,29 +137,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ad
 	android:allowBackup
 		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:16:9-49
+	android:usesCleartextTraffic
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
 		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:9:9-38
+activity#com.example.foody.ui.DetailsActivity
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:18:9-20:58
+	android:label
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:18:19-53
 activity#com.example.foody.ui.MainActivity
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:17:19-50
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:21:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:25:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:24:9-26:57
+ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:29:9-31:57
 	android:resource
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:26:13-54
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:31:13-54
 	android:name
-		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:25:13-43
+		ADDED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:30:13-43
 uses-sdk
 INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
@@ -221,6 +238,10 @@ MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\admin\.gradle\caches\t
 MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c9e438fe1a790304b3b134c62f937c3b\jetified-shimmer-0.5.0\AndroidManifest.xml:5:5-44
 MERGED from [com.todkars:shimmer-recyclerview:0.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de5a5ce7d3effd30b3310e26f7a33912\jetified-shimmer-recyclerview-0.4.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.todkars:shimmer-recyclerview:0.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\de5a5ce7d3effd30b3310e26f7a33912\jetified-shimmer-recyclerview-0.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a351daa565f17c7347c2f81f6ab3d770\jetified-appcenter-analytics-2.2.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a351daa565f17c7347c2f81f6ab3d770\jetified-appcenter-analytics-2.2.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\624797fea9b094c6a687d5a9bf93f4d9\jetified-appcenter-crashes-2.2.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\624797fea9b094c6a687d5a9bf93f4d9\jetified-appcenter-crashes-2.2.0\AndroidManifest.xml:11:5-13:41
 MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5a3293093f223c7e342fdd3f9046665f\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5a3293093f223c7e342fdd3f9046665f\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e230338de2ba672939d09441847abe5\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -295,6 +316,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6a078a371c994230298131230cc2d892\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\56187507f87d4f755eb447fa82c22166\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\56187507f87d4f755eb447fa82c22166\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0e86c975ea7ba73baaaab88a34cddc72\jetified-appcenter-2.2.0\AndroidManifest.xml:11:5-13:41
 INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -324,8 +347,8 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\admin\.gradle\c
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c77b03e3a91ef31363e658e48df2cf4c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-29:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\admin\Downloads\Foody-master\Foody-master\app\src\main\AndroidManifest.xml:2:1-34:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
